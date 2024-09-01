@@ -1,5 +1,5 @@
 {
-  "name": "my-nft-minter",
+  "name": "agc_poc_staking",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
