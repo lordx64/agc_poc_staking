@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# AGC Token Staking dApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a proof-of-concept (POC) for an AGC Token Staking decentralized application (dApp) built with React and TypeScript.
 
-## Available Scripts
+## Warning
 
-In the project directory, you can run:
+This dApp is part of an ongoing audit by Tephracore. DO NOT interact with this application if you are not part of the audit process. Unauthorized interaction may result in loss of funds. This POC is for demonstration purposes only.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you begin, ensure you have met the following requirements:
+* You have installed [Node.js](https://nodejs.org/) (version 12.x or later)
+* You have installed [npm](https://www.npmjs.com/) (usually comes with Node.js)
+* You have a Windows/Linux/Mac machine.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installing AGC Token Staking dApp
 
-### `npm test`
+To install the AGC Token Staking dApp, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+   ```
+   git clone https://github.com/lordx64/agc_poc_staking.git
+   ```
+2. Navigate to the project directory
+   ```
+   cd agc-token-staking-dapp
+   ```
+3. Install the dependencies
+   ```
+   npm install
+   ```
 
-### `npm run build`
+## Using AGC Token Staking dApp
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use AGC Token Staking dApp, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Start the development server
+   ```
+   npm start
+   ```
+2. Open your web browser and visit `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing to AGC Token Staking dApp
 
-### `npm run eject`
+To contribute to AGC Token Staking dApp, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contact
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you want to contact the maintainer, please email contact@tephracore.com.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project uses the following license: [MIT License](<link_to_license>).
